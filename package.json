@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-arduino-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reset": "firmata uno --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamalielsaracho/nodejs-arduino-hello-world.git"
+  },
+  "author": "gamaliel saracho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamalielsaracho/nodejs-arduino-hello-world/issues"
+  },
+  "homepage": "https://github.com/gamalielsaracho/nodejs-arduino-hello-world#readme",
+  "dependencies": {
+    "firmata": "^0.19.1",
+    "johnny-five": "^0.14.3"
+  }
+}
